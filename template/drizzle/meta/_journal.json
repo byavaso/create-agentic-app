@@ -1,0 +1,55 @@
+{
+  "version": "7",
+  "dialect": "postgresql",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "7",
+      "when": 1762409965425,
+      "tag": "0000_chilly_the_phantom",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "7",
+      "when": 1766719908715,
+      "tag": "0001_last_warpath",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "7",
+      "when": 1768143667820,
+      "tag": "0002_fluffy_naoko",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "7",
+      "when": 1768150606524,
+      "tag": "0003_odd_the_hood",
+      "breakpoints": true
+    },
+    {
+      "idx": 4,
+      "version": "7",
+      "when": 1768182571069,
+      "tag": "0004_outstanding_shape",
+      "breakpoints": true
+    },
+    {
+      "idx": 5,
+      "version": "7",
+      "when": 1769373049956,
+      "tag": "0005_last_charles_xavier",
+      "breakpoints": true
+    },
+    {
+      "idx": 6,
+      "version": "7",
+      "when": 1769376898117,
+      "tag": "0006_white_peter_quill",
+      "breakpoints": true
+    }
+  ]
+}

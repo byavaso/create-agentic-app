@@ -1,0 +1,57 @@
+{
+  "name": "create-agentic-app",
+  "version": "1.0.0",
+  "description": "Production-ready Next.js 16 boilerplate with AI, authentication, and database. Skip the setup, start building features.",
+  "homepage": "https://github.com/batuhanyavasoglu/create-agentic-app#readme",
+  "type": "module",
+  "bin": {
+    "create-agentic-app": "./dist/index.js"
+  },
+  "files": [
+    "dist",
+    "template"
+  ],
+  "scripts": {
+    "build": "tsup src/index.ts --format esm --dts",
+    "dev": "tsup src/index.ts --format esm --watch",
+    "typecheck": "tsc --noEmit",
+    "prepublishOnly": "pnpm build"
+  },
+  "keywords": [
+    "nextjs",
+    "nextjs-16",
+    "react",
+    "ai",
+    "better-auth",
+    "drizzle",
+    "postgresql",
+    "shadcn-ui",
+    "tailwind",
+    "boilerplate",
+    "template",
+    "starter"
+  ],
+  "author": "Batuhan Yavaşoğlu",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/batuhanyavasoglu/create-agentic-app",
+    "directory": "packages/cli"
+  },
+  "bugs": {
+    "url": "https://github.com/batuhanyavasoglu/create-agentic-app/issues"
+  },
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "commander": "^12.1.0",
+    "execa": "^9.5.2",
+    "inquirer": "^12.3.0",
+    "ora": "^8.1.1"
+  },
+  "devDependencies": {
+    "@types/inquirer": "^9.0.7",
+    "@types/node": "^20.19.25",
+    "tsup": "^8.3.5",
+    "typescript": "^5.9.3"
+  }
+}
