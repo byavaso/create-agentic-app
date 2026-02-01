@@ -1,4 +1,4 @@
-# create-agentic-app
+# create-agentic-app-by-byavaso
 
 <div align="center">
 
@@ -16,7 +16,7 @@
 The fastest way to start building AI-powered applications with Next.js. Skip the boilerplate setup and jump straight into building features.
 
 ```bash
-npx create-agentic-app my-app
+npx create-agentic-app-by-byavaso my-app
 cd my-app
 pnpm install
 pnpm dev
